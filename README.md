@@ -1,2 +1,1 @@
-# Game-Jam
-Take 2
+# GameJam
