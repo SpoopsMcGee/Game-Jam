@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9edbff6ea8c8d84488d5c938d9d3deec
-timeCreated: 1518943236
+timeCreated: 1518983341
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -44,6 +44,30 @@ TextureImporter:
     21300074: Spr_Chara_37
     21300076: Spr_Chara_38
     21300078: Spr_Chara_39
+    21300080: Spr_Chara_40
+    21300082: Spr_Chara_41
+    21300084: Spr_Chara_42
+    21300086: Spr_Chara_43
+    21300088: Spr_Chara_44
+    21300090: Spr_Chara_45
+    21300092: Spr_Chara_46
+    21300094: Spr_Chara_47
+    21300096: Spr_Chara_48
+    21300098: Spr_Chara_49
+    21300100: Spr_Chara_50
+    21300102: Spr_Chara_51
+    21300104: Spr_Chara_52
+    21300106: Spr_Chara_53
+    21300108: Spr_Chara_54
+    21300110: Spr_Chara_55
+    21300112: Spr_Chara_56
+    21300114: Spr_Chara_57
+    21300116: Spr_Chara_58
+    21300118: Spr_Chara_59
+    21300120: Spr_Chara_60
+    21300122: Spr_Chara_61
+    21300124: Spr_Chara_62
+    21300126: Spr_Chara_63
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -71,7 +95,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -124,7 +148,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 286
+        y: 516
         width: 39
         height: 64
       alignment: 0
@@ -138,7 +162,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 79
-        y: 286
+        y: 516
         width: 39
         height: 64
       alignment: 0
@@ -152,7 +176,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 143
-        y: 287
+        y: 517
         width: 39
         height: 63
       alignment: 0
@@ -166,7 +190,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 207
-        y: 287
+        y: 517
         width: 39
         height: 63
       alignment: 0
@@ -180,7 +204,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 286
+        y: 516
         width: 40
         height: 64
       alignment: 0
@@ -194,7 +218,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 334
-        y: 286
+        y: 516
         width: 40
         height: 64
       alignment: 0
@@ -208,7 +232,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 399
-        y: 287
+        y: 517
         width: 39
         height: 63
       alignment: 0
@@ -222,7 +246,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 463
-        y: 287
+        y: 517
         width: 39
         height: 63
       alignment: 0
@@ -236,7 +260,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 12
-        y: 213
+        y: 443
         width: 39
         height: 64
       alignment: 0
@@ -250,7 +274,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 76
-        y: 213
+        y: 443
         width: 39
         height: 64
       alignment: 0
@@ -264,7 +288,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 140
-        y: 214
+        y: 444
         width: 39
         height: 63
       alignment: 0
@@ -278,7 +302,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 204
-        y: 214
+        y: 444
         width: 39
         height: 63
       alignment: 0
@@ -292,7 +316,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 268
-        y: 213
+        y: 443
         width: 39
         height: 64
       alignment: 0
@@ -306,7 +330,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 332
-        y: 213
+        y: 443
         width: 39
         height: 64
       alignment: 0
@@ -320,7 +344,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 396
-        y: 214
+        y: 444
         width: 39
         height: 63
       alignment: 0
@@ -334,7 +358,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 460
-        y: 214
+        y: 444
         width: 39
         height: 63
       alignment: 0
@@ -348,7 +372,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 145
+        y: 375
         width: 34
         height: 63
       alignment: 0
@@ -362,7 +386,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 78
-        y: 145
+        y: 375
         width: 34
         height: 63
       alignment: 0
@@ -376,7 +400,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 143
-        y: 145
+        y: 375
         width: 33
         height: 63
       alignment: 0
@@ -390,7 +414,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 207
-        y: 145
+        y: 375
         width: 33
         height: 63
       alignment: 0
@@ -404,7 +428,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 145
+        y: 375
         width: 34
         height: 63
       alignment: 0
@@ -418,7 +442,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 334
-        y: 145
+        y: 375
         width: 34
         height: 63
       alignment: 0
@@ -432,7 +456,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 399
-        y: 145
+        y: 375
         width: 33
         height: 63
       alignment: 0
@@ -446,7 +470,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 463
-        y: 145
+        y: 375
         width: 33
         height: 63
       alignment: 0
@@ -460,7 +484,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 71
+        y: 301
         width: 33
         height: 63
       alignment: 0
@@ -474,7 +498,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 78
-        y: 71
+        y: 301
         width: 33
         height: 63
       alignment: 0
@@ -488,7 +512,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 71
+        y: 301
         width: 34
         height: 63
       alignment: 0
@@ -502,7 +526,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 206
-        y: 71
+        y: 301
         width: 34
         height: 63
       alignment: 0
@@ -516,7 +540,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 71
+        y: 301
         width: 33
         height: 63
       alignment: 0
@@ -530,7 +554,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 334
-        y: 71
+        y: 301
         width: 33
         height: 63
       alignment: 0
@@ -544,7 +568,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 398
-        y: 71
+        y: 301
         width: 34
         height: 63
       alignment: 0
@@ -558,7 +582,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 462
-        y: 71
+        y: 301
         width: 34
         height: 63
       alignment: 0
@@ -571,8 +595,8 @@ TextureImporter:
       name: Spr_Chara_32
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1
+        x: 10
+        y: 222
         width: 39
         height: 64
       alignment: 0
@@ -585,8 +609,8 @@ TextureImporter:
       name: Spr_Chara_33
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
+        x: 74
+        y: 222
         width: 39
         height: 64
       alignment: 0
@@ -599,8 +623,8 @@ TextureImporter:
       name: Spr_Chara_34
       rect:
         serializedVersion: 2
-        x: 141
-        y: 1
+        x: 138
+        y: 222
         width: 39
         height: 64
       alignment: 0
@@ -613,8 +637,8 @@ TextureImporter:
       name: Spr_Chara_35
       rect:
         serializedVersion: 2
-        x: 205
-        y: 1
+        x: 202
+        y: 222
         width: 39
         height: 64
       alignment: 0
@@ -627,8 +651,8 @@ TextureImporter:
       name: Spr_Chara_36
       rect:
         serializedVersion: 2
-        x: 269
-        y: 1
+        x: 266
+        y: 222
         width: 39
         height: 64
       alignment: 0
@@ -641,8 +665,8 @@ TextureImporter:
       name: Spr_Chara_37
       rect:
         serializedVersion: 2
-        x: 333
-        y: 1
+        x: 330
+        y: 222
         width: 39
         height: 64
       alignment: 0
@@ -655,8 +679,8 @@ TextureImporter:
       name: Spr_Chara_38
       rect:
         serializedVersion: 2
-        x: 397
-        y: 1
+        x: 394
+        y: 222
         width: 39
         height: 64
       alignment: 0
@@ -669,10 +693,346 @@ TextureImporter:
       name: Spr_Chara_39
       rect:
         serializedVersion: 2
-        x: 461
-        y: 1
+        x: 458
+        y: 222
         width: 39
         height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_40
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_41
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_42
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_43
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_44
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_45
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_47
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 145
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 75
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 75
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 75
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_51
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 75
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 75
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 75
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_54
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 75
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_55
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 75
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_57
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_58
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_59
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_60
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_61
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_62
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_63
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2
+        width: 33
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
