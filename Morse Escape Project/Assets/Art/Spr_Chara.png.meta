@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 9edbff6ea8c8d84488d5c938d9d3deec
+timeCreated: 1518943236
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spr_Chara_0
+    21300002: Spr_Chara_1
+    21300004: Spr_Chara_2
+    21300006: Spr_Chara_3
+    21300008: Spr_Chara_4
+    21300010: Spr_Chara_5
+    21300012: Spr_Chara_6
+    21300014: Spr_Chara_7
+    21300016: Spr_Chara_8
+    21300018: Spr_Chara_9
+    21300020: Spr_Chara_10
+    21300022: Spr_Chara_11
+    21300024: Spr_Chara_12
+    21300026: Spr_Chara_13
+    21300028: Spr_Chara_14
+    21300030: Spr_Chara_15
+    21300032: Spr_Chara_16
+    21300034: Spr_Chara_17
+    21300036: Spr_Chara_18
+    21300038: Spr_Chara_19
+    21300040: Spr_Chara_20
+    21300042: Spr_Chara_21
+    21300044: Spr_Chara_22
+    21300046: Spr_Chara_23
+    21300048: Spr_Chara_24
+    21300050: Spr_Chara_25
+    21300052: Spr_Chara_26
+    21300054: Spr_Chara_27
+    21300056: Spr_Chara_28
+    21300058: Spr_Chara_29
+    21300060: Spr_Chara_30
+    21300062: Spr_Chara_31
+    21300064: Spr_Chara_32
+    21300066: Spr_Chara_33
+    21300068: Spr_Chara_34
+    21300070: Spr_Chara_35
+    21300072: Spr_Chara_36
+    21300074: Spr_Chara_37
+    21300076: Spr_Chara_38
+    21300078: Spr_Chara_39
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spr_Chara_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 286
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 286
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 287
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 286
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 286
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 287
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 287
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 213
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 213
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 214
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 214
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 213
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 213
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 214
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 214
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 145
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 145
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 145
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 145
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 145
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_21
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 145
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 145
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 145
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 71
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 71
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_26
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 71
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 71
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 71
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_29
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 71
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_30
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 71
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_31
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 71
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_32
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_33
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_34
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_35
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_36
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_38
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spr_Chara_39
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
