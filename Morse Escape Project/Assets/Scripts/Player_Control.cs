@@ -41,13 +41,21 @@ public class Player_Control : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
             transform.eulerAngles = new Vector2(0, 0);
-            anim.Play("Char_Walk_Side");
+			if (Input.GetAxisRaw("Vertical") == 0) {
+				anim.Play("Char_Walk_Side");
+				this.GetComponent<SpriteRenderer>().flipX = false;
+			}
+				
         }
-
-        if(Input.GetAxisRaw("Horizontal") < 0)
+		else if(Input.GetAxisRaw("Horizontal") < 0)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
             transform.eulerAngles = new Vector2(0, 0);
+			if (Input.GetAxisRaw("Vertical") == 0) {
+				anim.Play("Char_Walk_Side");
+				this.GetComponent<SpriteRenderer>().flipX = true;
+			}
+				
         }
 
         if(Input.GetAxisRaw("Vertical") > 0)
@@ -56,8 +64,7 @@ public class Player_Control : MonoBehaviour
             transform.eulerAngles = new Vector2(0, 0);
             anim.Play("Char_Walk_Up");
         }
-
-        if(Input.GetAxisRaw("Vertical") < 0)
+		else if(Input.GetAxisRaw("Vertical") < 0)
         {
             transform.Translate(Vector3.down * speed * Time.deltaTime);
             transform.eulerAngles = new Vector2(0, 0);
