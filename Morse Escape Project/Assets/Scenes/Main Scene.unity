@@ -671,7 +671,7 @@ Transform:
   m_LocalScale: {x: 1.1807338, y: 0.85061824, z: 2.1474354}
   m_Children: []
   m_Father: {fileID: 1256444346}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &425147521
 Prefab:
@@ -715,18 +715,6 @@ Prefab:
     - target: {fileID: 1328510608518988, guid: 8cee070105da3e741a181eef6bbeacd9, type: 2}
       propertyPath: m_Name
       value: Spr_BookShelfVase
-      objectReference: {fileID: 0}
-    - target: {fileID: 4254070289104212, guid: 8cee070105da3e741a181eef6bbeacd9, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.4804661
-      objectReference: {fileID: 0}
-    - target: {fileID: 4254070289104212, guid: 8cee070105da3e741a181eef6bbeacd9, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.443077
-      objectReference: {fileID: 0}
-    - target: {fileID: 4254070289104212, guid: 8cee070105da3e741a181eef6bbeacd9, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3.8443868
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8cee070105da3e741a181eef6bbeacd9, type: 2}
@@ -825,7 +813,7 @@ Transform:
   m_LocalScale: {x: 1.1807338, y: 0.85061824, z: 2.1474354}
   m_Children: []
   m_Father: {fileID: 1256444346}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!4 &492405371 stripped
 Transform:
@@ -918,7 +906,7 @@ Transform:
   m_LocalScale: {x: 1.1807338, y: 0.92504734, z: 2.1474354}
   m_Children: []
   m_Father: {fileID: 1256444346}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &642586654
 Prefab:
@@ -1433,18 +1421,6 @@ Prefab:
       propertyPath: m_Name
       value: Spr_BookShelf
       objectReference: {fileID: 0}
-    - target: {fileID: 4561590966305592, guid: ba6be204f74dd6a4887cc30f071344f2, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.4804662
-      objectReference: {fileID: 0}
-    - target: {fileID: 4561590966305592, guid: ba6be204f74dd6a4887cc30f071344f2, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.4429529
-      objectReference: {fileID: 0}
-    - target: {fileID: 4561590966305592, guid: ba6be204f74dd6a4887cc30f071344f2, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3.0036724
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba6be204f74dd6a4887cc30f071344f2, type: 2}
   m_IsPrefabParent: 0
@@ -1490,6 +1466,11 @@ Prefab:
     - target: {fileID: 1571729653918094, guid: 40fb510a9bf602a4487f44e033bd3f65, type: 2}
       propertyPath: m_Name
       value: Spr_Toilet
+      objectReference: {fileID: 0}
+    - target: {fileID: 212722897072030292, guid: 40fb510a9bf602a4487f44e033bd3f65,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40fb510a9bf602a4487f44e033bd3f65, type: 2}
@@ -1635,10 +1616,10 @@ Transform:
   - {fileID: 153852736}
   - {fileID: 1815670220}
   - {fileID: 1522468393}
+  - {fileID: 1514472063}
   - {fileID: 585140347}
   - {fileID: 420035617}
   - {fileID: 473926307}
-  - {fileID: 1514472063}
   - {fileID: 880400946}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1824,7 +1805,7 @@ Transform:
   m_LocalScale: {x: 1.466375, y: 1.9659851, z: 0.8191179}
   m_Children: []
   m_Father: {fileID: 1256444346}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1522468393 stripped
 Transform:
