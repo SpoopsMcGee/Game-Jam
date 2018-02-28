@@ -1,0 +1,30 @@
+wicker chair- 
+		"Just a normal looking chair"
+Round Table-
+		"This table looks out of place"
+Large Carpet-
+		"There's something underneath this flap?"
+		"I already flipped this corner, there's nothing else here"
+Curtains-
+		"Theres... There's no window behind this curtain.."
+Sink-
+		"Always keep your hands clean, I guess?"
+Sink 2 -
+		"K-keep your hands extra clean???"
+Toilet
+		"Who puts a toilet in the middle of a room?"
+		"This just seems out of place"
+Bookshelf-
+		"There doesn't seem to be any books I'm interested in here"
+BookshelfVase-
+		"Kiss Kiss fall in-... yeah no more singing that."
+Computer-
+		"Does this thing work?"
+		-prompts password screen
+TrashCan-
+		"This isn't pokemon, nothing in the trash."
+CrumpledPaper-
+		"The beautiful lie...
+			This poem reminds me of the stuff i used to write"
+	
+
