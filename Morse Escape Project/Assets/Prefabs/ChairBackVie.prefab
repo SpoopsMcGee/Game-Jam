@@ -9,51 +9,51 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1803374649062094}
+  m_RootGameObject: {fileID: 1752428834081094}
   m_IsPrefabParent: 1
---- !u!1 &1803374649062094
+--- !u!1 &1752428834081094
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4561590966305592}
-  - component: {fileID: 212324928364419696}
-  - component: {fileID: 61529261232788988}
+  - component: {fileID: 4180738067529798}
+  - component: {fileID: 212843127245199998}
+  - component: {fileID: 61012200750860314}
   m_Layer: 0
-  m_Name: Bookshelf
+  m_Name: ChairBackVie
   m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4561590966305592
+--- !u!4 &4180738067529798
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1803374649062094}
+  m_GameObject: {fileID: 1752428834081094}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.89, y: 2.39, z: 0}
-  m_LocalScale: {x: 1.698336, y: 1.655302, z: 3.4457018}
+  m_LocalPosition: {x: -8.35, y: -4.23, z: 0}
+  m_LocalScale: {x: 1.6790634, y: 1.2702368, z: 1.9217808}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61529261232788988
+--- !u!61 &61012200750860314
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1803374649062094}
+  m_GameObject: {fileID: 1752428834081094}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010244995, y: 0.21069753}
+  m_Offset: {x: 0.013317384, y: -0.0053165853}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -64,14 +64,14 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.49371862, y: 0.15342182}
+  m_Size: {x: 0.26368922, y: 0.3552786}
   m_EdgeRadius: 0
---- !u!212 &212324928364419696
+--- !u!212 &212843127245199998
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1803374649062094}
+  m_GameObject: {fileID: 1752428834081094}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -100,7 +100,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 025960b1dcfa8cc4fb91fa6bfabda8cf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e430ae6d3ae06ea47a083d6c2ab46406, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
