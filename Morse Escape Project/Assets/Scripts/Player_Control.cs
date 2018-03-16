@@ -72,7 +72,7 @@ public class Player_Control : MonoBehaviour
 
         }
 
-        if(Input.GetAxisRaw("Vertical") == 0 && Input.GetAxisRaw("Horizontal") == 0)
+        if(Input.GetAxisRaw("Vertical") == 0 && Input.GetAxisRaw("Horizontal") == 0) //added idle anim for keys, still need to flip anim for KeyCode.A
         {
             if (Input.GetKeyUp(KeyCode.S))
             {
@@ -87,6 +87,11 @@ public class Player_Control : MonoBehaviour
             else if(Input.GetKeyUp(KeyCode.D))
             {
                 anim.Play("Char_Idle_Side");
+            }
+
+            else if(Input.GetKeyUp(KeyCode.A)) //dis don't work but idk y
+            {
+                anim.Play("Char_Idle_LSide");
             }
         }
 
