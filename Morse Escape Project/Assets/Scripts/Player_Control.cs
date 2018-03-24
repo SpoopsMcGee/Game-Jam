@@ -91,7 +91,8 @@ public class Player_Control : MonoBehaviour
 
             else if(Input.GetKeyUp(KeyCode.A)) //dis don't work but idk y
             {
-                anim.Play("Char_Idle_LSide");
+                anim.Play("Char_Idle_Side");
+                this.GetComponent<SpriteRenderer>().flipX = true;
             }
         }
 
