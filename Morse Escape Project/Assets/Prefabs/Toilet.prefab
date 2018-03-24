@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4866987664351248}
   - component: {fileID: 212722897072030292}
   - component: {fileID: 61560733433926568}
+  - component: {fileID: 61411158072844550}
   m_Layer: 0
   m_Name: Toilet
   m_TagString: InterObj
@@ -35,12 +36,37 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1571729653918094}
   m_LocalRotation: {x: -0, y: 0.9999534, z: -0, w: -0.009657953}
-  m_LocalPosition: {x: -8.249, y: 1.033, z: 0.08}
+  m_LocalPosition: {x: -8.354, y: 1.033, z: 0.08}
   m_LocalScale: {x: 1.5454838, y: 1.2990906, z: 1.7688916}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 181.107, z: 0}
+--- !u!61 &61411158072844550
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571729653918094}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.026840925, y: 0.02504751}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5354614, y: 0.5658017}
+  m_EdgeRadius: 0
 --- !u!61 &61560733433926568
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -53,7 +79,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.023233443, y: 0.033600442}
+  m_Offset: {x: -0.023233443, y: -0.0200717}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -64,7 +90,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4551478, y: 0.429083}
+  m_Size: {x: 0.4551478, y: 0.3217387}
   m_EdgeRadius: 0
 --- !u!212 &212722897072030292
 SpriteRenderer:

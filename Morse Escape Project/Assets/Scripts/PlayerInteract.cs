@@ -13,6 +13,12 @@ public class PlayerInteract : MonoBehaviour {
             //or morse code
 
             Debug.Log("you found this");
+            //play sound after text is shown
+            if (currentInterObj)
+                {
+                currentInterObj.GetComponent<AudioSource>().Play();
+               
+            }
 
         }
     }
@@ -21,13 +27,17 @@ public class PlayerInteract : MonoBehaviour {
         if (other.CompareTag("InterObj")) { 
         Debug.Log(other.name);
         currentInterObj = other.gameObject;
+
+            //returns name of object
+
     }
+
     }
 
     void OnTriggerExit2D(Collider2D other) {
         if (other.CompareTag("InterObj"))
         {   
-            if(other.gameObject == currentInterObj)
+            if(other.gameObject == currentInterObj) 
             {
                 currentInterObj = null;
             }
@@ -35,4 +45,7 @@ public class PlayerInteract : MonoBehaviour {
             
         }
     }
+
+
+    
 }
