@@ -126,7 +126,6 @@ GameObject:
   - component: {fileID: 107246070}
   - component: {fileID: 107246071}
   - component: {fileID: 107246072}
-  - component: {fileID: 107246075}
   - component: {fileID: 107246074}
   - component: {fileID: 107246073}
   m_Layer: 0
@@ -297,17 +296,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
---- !u!114 &107246075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 107246066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &153852736 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4234452872454674, guid: 054fb1d4d0534aa43be9f79f3b1b0cc9,
@@ -407,6 +395,36 @@ Prefab:
       propertyPath: m_Name
       value: Spr_TrashCan
       objectReference: {fileID: 0}
+    - target: {fileID: 61248433738970956, guid: 4c4ab5013e440db44bb8f7af19346a15,
+        type: 2}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61248433738970956, guid: 4c4ab5013e440db44bb8f7af19346a15,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61248433738970956, guid: 4c4ab5013e440db44bb8f7af19346a15,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.011585981
+      objectReference: {fileID: 0}
+    - target: {fileID: 61248433738970956, guid: 4c4ab5013e440db44bb8f7af19346a15,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.48330027
+      objectReference: {fileID: 0}
+    - target: {fileID: 61248433738970956, guid: 4c4ab5013e440db44bb8f7af19346a15,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.0044081584
+      objectReference: {fileID: 0}
+    - target: {fileID: 61248433738970956, guid: 4c4ab5013e440db44bb8f7af19346a15,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.39624947
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c4ab5013e440db44bb8f7af19346a15, type: 2}
   m_IsPrefabParent: 0
@@ -483,6 +501,47 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &319514930 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1409664631792040, guid: 4c4ab5013e440db44bb8f7af19346a15,
+    type: 2}
+  m_PrefabInternal: {fileID: 285198071}
+--- !u!61 &319514931
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319514930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.005683422, y: -0.014398336}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5604285, y: 0.57280934}
+  m_EdgeRadius: 0
+--- !u!114 &319514932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319514930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &367011283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,6 +1918,11 @@ Prefab:
     - target: {fileID: 1512832570452534, guid: 3ab9cf16f43fef445b4339cd5b234a98, type: 2}
       propertyPath: m_Name
       value: Spr_DoorLocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 212156031018093344, guid: 3ab9cf16f43fef445b4339cd5b234a98,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ab9cf16f43fef445b4339cd5b234a98, type: 2}
