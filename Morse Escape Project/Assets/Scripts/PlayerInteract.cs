@@ -5,16 +5,17 @@ using UnityEngine;
 public class PlayerInteract : MonoBehaviour {
 
     public GameObject currentInterObj = null;
-
+    
 
     void Update() {
         if (Input.GetButtonDown("Interact") && currentInterObj) {
             //figure out what is and isn't an object get flavor text
             //or morse code
 
-            Debug.Log("you found this");
+            currentInterObj.GetComponent<GUIText>("You found this");
+            
             //play sound after text is shown
-            if (currentInterObj)
+            if (currentInterObj.GetComponent<AudioSource>())
                 {
                 currentInterObj.GetComponent<AudioSource>().Play();
                

@@ -74,22 +74,22 @@ public class Player_Control : MonoBehaviour
 
         if(Input.GetAxisRaw("Vertical") == 0 && Input.GetAxisRaw("Horizontal") == 0) //added idle anim for keys, still need to flip anim for KeyCode.A
         {
-            if (Input.GetKeyUp(KeyCode.S))
+            if (Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow))
             {
                 anim.Play("Char_Idle");
             }
 
-            else if(Input.GetKeyUp(KeyCode.W))
+            else if(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
             {
                 anim.Play("Char_Idle_Up");
             }
 
-            else if(Input.GetKeyUp(KeyCode.D))
+            else if(Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow))
             {
                 anim.Play("Char_Idle_Side");
             }
 
-            else if(Input.GetKeyUp(KeyCode.A)) //dis don't work but idk y
+            else if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow))
             {
                 anim.Play("Char_Idle_Side");
                 this.GetComponent<SpriteRenderer>().flipX = true;
