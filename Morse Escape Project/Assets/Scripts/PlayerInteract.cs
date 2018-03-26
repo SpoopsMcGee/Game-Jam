@@ -12,7 +12,7 @@ public class PlayerInteract : MonoBehaviour {
             //figure out what is and isn't an object get flavor text
             //or morse code
 
-            currentInterObj.GetComponent<GUIText>("You found this");
+            Debug.Log("you found this");
             
             //play sound after text is shown
             if (currentInterObj.GetComponent<AudioSource>())
@@ -21,6 +21,11 @@ public class PlayerInteract : MonoBehaviour {
                
             }
 
+            if (currentInterObj.name.Equals("book")) {
+                
+
+            }
+               
         }
     }
 

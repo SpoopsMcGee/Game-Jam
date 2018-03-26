@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class InteractionObject : MonoBehaviour {
 
+    public string noun;
+    public string description;
 
-
+    public AudioSource source;
 
     public void DoInteraction()
 
