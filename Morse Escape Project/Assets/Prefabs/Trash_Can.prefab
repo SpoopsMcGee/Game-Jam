@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noun: Trash Can
-  description: adsfasdfasdf
+  description: Simple looking trash can
   source: {fileID: 82875985735035884}
 --- !u!212 &212521107652017212
 SpriteRenderer:

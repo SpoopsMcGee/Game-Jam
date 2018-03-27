@@ -571,6 +571,7 @@ GameObject:
   - component: {fileID: 317901010}
   - component: {fileID: 317901009}
   - component: {fileID: 317901008}
+  - component: {fileID: 317901011}
   m_Layer: 0
   m_Name: Book
   m_TagString: InterObj
@@ -680,6 +681,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &317901011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317901006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noun: Book
+  description: Looks likea normal book
+  source: {fileID: 0}
 --- !u!224 &319514936 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224414342889385498, guid: f536845e9bb99484fb7773338bc65fd8,
@@ -792,6 +807,25 @@ Transform:
   m_PrefabParentObject: {fileID: 4193971477856550, guid: 3ab9cf16f43fef445b4339cd5b234a98,
     type: 2}
   m_PrefabInternal: {fileID: 1619318827}
+--- !u!1 &710230376 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1079518467485106, guid: c2a1d72e7b87de54b99062dbc81532d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1252665045}
+--- !u!114 &710230377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710230376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noun: 
+  description: 
+  source: {fileID: 0}
 --- !u!1 &715235397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,8 +1100,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953819715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 71.7, y: 16.2, z: -292.23843}
-  m_LocalScale: {x: 7.637356, y: 6.4197593, z: 8.741391}
+  m_LocalPosition: {x: 85.2, y: 21.5, z: -292.23843}
+  m_LocalScale: {x: 6.791819, y: 5.7090235, z: 7.773626}
   m_Children: []
   m_Father: {fileID: 880400946}
   m_RootOrder: 1
@@ -1946,7 +1980,7 @@ Transform:
   m_GameObject: {fileID: 2096987786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -292, y: -147, z: 0}
-  m_LocalScale: {x: 18.91258, y: 16.24926, z: 16.24926}
+  m_LocalScale: {x: 17.730549, y: 12.186959, z: 16.24926}
   m_Children: []
   m_Father: {fileID: 880400946}
   m_RootOrder: 0
