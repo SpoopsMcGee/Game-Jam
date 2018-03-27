@@ -1047,12 +1047,12 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 2
-  m_ReferencePixelsPerUnit: 100
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 10
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1068,14 +1068,14 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 715235400}
   m_PlaneDistance: 50
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: -1133937677
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!1 &953819715
 GameObject:
@@ -1100,8 +1100,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953819715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85.2, y: 21.5, z: -292.23843}
-  m_LocalScale: {x: 6.791819, y: 5.7090235, z: 7.773626}
+  m_LocalPosition: {x: 288, y: 134, z: -292.23843}
+  m_LocalScale: {x: 27.134985, y: 22.808933, z: 31.057512}
   m_Children: []
   m_Father: {fileID: 880400946}
   m_RootOrder: 1
@@ -1979,8 +1979,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2096987786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -292, y: -147, z: 0}
-  m_LocalScale: {x: 17.730549, y: 12.186959, z: 16.24926}
+  m_LocalPosition: {x: -385, y: -284, z: 0}
+  m_LocalScale: {x: 17.901402, y: 11.607898, z: 24.763565}
   m_Children: []
   m_Father: {fileID: 880400946}
   m_RootOrder: 0
