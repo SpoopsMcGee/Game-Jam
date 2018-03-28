@@ -8,12 +8,28 @@ public class InteractionObject : MonoBehaviour {
     public string description;
 
     public AudioSource source;
+    public bool visible = true;
 
-    public void DoInteraction()
+
+        public InteractionObject() { 
+
+        if (visible == false)
+        {
+          
+        }
+        }
+
+public void DoInteraction()
 
     {
-        // checked to see if items have audio file
-        //(
+        if (source) {
+
+            print(description);
+            source.Play(+1);
+        }
+        else
+            {
+        }
 
     }
 }
