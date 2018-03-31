@@ -24,8 +24,9 @@ public class PlayerInteract : MonoBehaviour {
 
             if (currentInterObj.name.Equals("book")) {
 
-                GameObject.FindGameObjectWithTag("UI_item").Toggle();
-                     
+
+
+                
 
             }
                
@@ -38,6 +39,7 @@ public class PlayerInteract : MonoBehaviour {
         currentInterObj = other.gameObject;
 
             //returns name of object
+
 
     }
 
