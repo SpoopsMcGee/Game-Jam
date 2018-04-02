@@ -1,35 +1,55 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InteractionObject : MonoBehaviour {
+
+	public GameObject currentInterObj = null;
 
     public string noun;
     public string description;
 
     public AudioSource source;
-    public bool visible = true;
+    
+
+	public void Update()
+	{
+			
+		DoInteraction (currentInterObj);
+	}
 
 
-        public InteractionObject() { 
-
-        if (visible == false)
-        {
-          
-        }
-        }
-
-public void DoInteraction()
+	public void DoInteraction(GameObject currentInterObj)
 
     {
-        if (source) {
+		
+		if (Input.GetButtonDown ("Interact")) {
+			
 
-            print(description);
-            source.Play(+1);
-        }
-        else
-            {
-        }
-
+				print (noun);
+				print (description);
+			if (source) {
+				source.Play (+1);
+			} else {
+			}
+		}
     }
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.CompareTag ("InterObj")) { 
+			Debug.Log (other.name);
+			currentInterObj = other.gameObject;
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D other) {
+		if (other.CompareTag ("InterObj")) {   
+			if (other.gameObject == currentInterObj) {
+				currentInterObj = null;
+			}
+
+
+		}
+	}
+		
 }

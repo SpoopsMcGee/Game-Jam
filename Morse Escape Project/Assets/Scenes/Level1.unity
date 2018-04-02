@@ -693,9 +693,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noun: Book
-  description: Looks likea normal book
+  description: Looks like a normal book
   source: {fileID: 0}
-  visible: 1
 --- !u!224 &319514936 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224414342889385498, guid: f536845e9bb99484fb7773338bc65fd8,
@@ -827,7 +826,6 @@ MonoBehaviour:
   noun: 
   description: 
   source: {fileID: 0}
-  visible: 1
 --- !u!1 &715235397
 GameObject:
   m_ObjectHideFlags: 0
