@@ -9,29 +9,22 @@ public class PlayerInteract : MonoBehaviour {
     
 
     void Update() {
-      //  if (Input.GetButtonDown("Interact") && currentInterObj) {
-            //figure out what is and isn't an object get flavor text
-            //or morse code
 
-          //  Debug.Log("you found this");
-            
-            //play sound after text is shown
-            //if (currentInterObj.GetComponent<AudioSource>())
-              //  {
-                //currentInterObj.GetComponent<AudioSource>().Play();
-               
-          //  }
-               
-        //}
-    }
+		if (currentInterObj = "Book") {
 
-   /* void OnTriggerEnter2D(Collider2D other) {
+
+		}
+
+
+	}
+	//allows the game to know what the character sees in front of them
+	//will use data so other objects with the same tag aren't interacted with at same time
+    void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("InterObj")) { 
         Debug.Log(other.name);
         currentInterObj = other.gameObject;
 
             //returns name of object
-
 
     }
 
@@ -48,7 +41,6 @@ public class PlayerInteract : MonoBehaviour {
             
         }
     }
-*/
 
     
 }

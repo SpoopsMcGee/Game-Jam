@@ -12,7 +12,7 @@ public class InteractionObject : MonoBehaviour {
 
     public AudioSource source;
     
-
+	//allows player to interact with object currently in front of them
 	public void Update()
 	{
 			
@@ -23,27 +23,27 @@ public class InteractionObject : MonoBehaviour {
 	public void DoInteraction(GameObject currentInterObj)
 
     {
-		
-		if (Input.GetButtonDown ("Interact")) {
+		//allows the interaction to occur
+		if (Input.GetButtonDown ("Interact") && currentInterObj) {
 			
 
-				print (noun);
-				print (description);
+				print (this.noun);
+				print (this.description);
 			if (source) {
 				source.Play (+1);
-			} else {
 			}
 		}
     }
+	//check to make sure what object is in front of them
 	void OnTriggerEnter2D(Collider2D other) {
-		if (other.CompareTag ("InterObj")) { 
+		if (other.CompareTag ("Player")) { 
 			Debug.Log (other.name);
 			currentInterObj = other.gameObject;
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
-		if (other.CompareTag ("InterObj")) {   
+		if (other.CompareTag ("Player")) {   
 			if (other.gameObject == currentInterObj) {
 				currentInterObj = null;
 			}

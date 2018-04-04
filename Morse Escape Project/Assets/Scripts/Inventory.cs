@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour {
     public GameObject[] inventory = new GameObject[10];
 
 
-
+	//publicizing what objects we currently have
 	// Use this for initialization
 	void Start () {
 		
