@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class PlayerInteract : MonoBehaviour {
 
     public GameObject currentInterObj = null;
-    
+	public string NameOfObject;
 
     void Update() {
 
-		if (currentInterObj = "Book") {
+		if (NameOfObject == "Book") {
+
+
 
 
 		}
@@ -21,6 +23,7 @@ public class PlayerInteract : MonoBehaviour {
 	//will use data so other objects with the same tag aren't interacted with at same time
     void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("InterObj")) { 
+			NameOfObject = other.name;
         Debug.Log(other.name);
         currentInterObj = other.gameObject;
 
