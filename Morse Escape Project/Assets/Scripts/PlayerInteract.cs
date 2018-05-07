@@ -7,15 +7,46 @@ public class PlayerInteract : MonoBehaviour {
 
     public GameObject currentInterObj = null;
 	public string NameOfObject;
+	private Inventory myInventory;
+	public GameObject uiCanvas;
+	private InteractionObject IGObject;
+	void Start(){
+		myInventory = this.gameObject.GetComponent<Inventory> ();
+
+	}
 
     void Update() {
 
-		if (NameOfObject == "Book") {
+		DoInteraction (currentInterObj);
+	}
+
+	void DoInteraction(GameObject currentInterObj)
+
+	{
+		//allows the interaction to occur
+		if (Input.GetButtonDown ("Interact") && currentInterObj) {
 
 
+			print (IGObject.noun);
+			print (IGObject.description);
+			if (IGObject.GetComponent<AudioSource>()!= null) {
+				IGObject.GetComponent<AudioSource>().Play();
+			}
+
+			if (NameOfObject == "Book") {
+				// this happens on e press
+				// myInventory.addObjectToInventory (currentInterObj);
+				// currentInterObj = null;
 
 
+			} else if (NameOfObject == "Paper") {
+				GameObject.Destroy (currentInterObj);
+				uiCanvas.transform.Find ("MorseTable").gameObject.GetComponent<SpriteRenderer> ().enabled = true;
+			}
 		}
+
+
+
 
 
 	}
@@ -23,9 +54,13 @@ public class PlayerInteract : MonoBehaviour {
 	//will use data so other objects with the same tag aren't interacted with at same time
     void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("InterObj")) { 
-			NameOfObject = other.name;
-        Debug.Log(other.name);
-        currentInterObj = other.gameObject;
+			if (other.gameObject.GetComponent<InteractionObject> () != null) {
+				NameOfObject = other.gameObject.GetComponent<InteractionObject> ().noun;
+				Debug.Log(other.name);
+				currentInterObj = other.gameObject;
+				IGObject = currentInterObj.GetComponent<InteractionObject> ();
+			}
+
 
             //returns name of object
 

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4234452872454674}
   - component: {fileID: 212872662206454982}
   - component: {fileID: 61465204261500818}
+  - component: {fileID: 114137671400844712}
   m_Layer: 0
   m_Name: CPU_Chair
   m_TagString: Untagged
@@ -66,6 +67,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.29291457, y: 0.15771845}
   m_EdgeRadius: 0
+--- !u!114 &114137671400844712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061649828916860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInterObj: {fileID: 0}
+  noun: 
+  description: 
+  source: {fileID: 0}
 --- !u!212 &212872662206454982
 SpriteRenderer:
   m_ObjectHideFlags: 1

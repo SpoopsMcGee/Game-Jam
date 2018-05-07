@@ -17,4 +17,8 @@ public class Inventory : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void addObjectToInventory(GameObject thisObject){
+
+	}
 }

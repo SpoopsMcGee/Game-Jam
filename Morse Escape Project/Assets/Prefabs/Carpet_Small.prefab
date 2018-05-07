@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4053313625361110}
   - component: {fileID: 212212745789913420}
   - component: {fileID: 68541341605855474}
+  - component: {fileID: 114642350417489820}
   m_Layer: 0
   m_Name: Carpet_Small
   m_TagString: InterObj
@@ -61,6 +62,21 @@ EdgeCollider2D:
   - {x: -0.24167635, y: -0.14603692}
   - {x: -0.13528858, y: -0.14921202}
   - {x: -0.13734487, y: -0.028557742}
+--- !u!114 &114642350417489820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412055278830854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInterObj: {fileID: 0}
+  noun: 
+  description: 
+  source: {fileID: 0}
 --- !u!212 &212212745789913420
 SpriteRenderer:
   m_ObjectHideFlags: 1

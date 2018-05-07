@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212283513230509400}
   - component: {fileID: 61033120566458418}
   - component: {fileID: 61915239248176166}
+  - component: {fileID: 114514719992828456}
   m_Layer: 0
   m_Name: Bookshelf_Vase
   m_TagString: InterObj
@@ -92,6 +93,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.53449726, y: 0.662999}
   m_EdgeRadius: 0
+--- !u!114 &114514719992828456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328510608518988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInterObj: {fileID: 0}
+  noun: 
+  description: 
+  source: {fileID: 0}
 --- !u!212 &212283513230509400
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4193971477856550}
   - component: {fileID: 212156031018093344}
   - component: {fileID: 61186401060222554}
+  - component: {fileID: 114177977135957844}
   m_Layer: 0
   m_Name: Locked_Door
   m_TagString: InterObj
@@ -66,6 +67,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7493422, y: 0.5079341}
   m_EdgeRadius: 0
+--- !u!114 &114177977135957844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512832570452534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInterObj: {fileID: 0}
+  noun: 
+  description: 
+  source: {fileID: 0}
 --- !u!212 &212156031018093344
 SpriteRenderer:
   m_ObjectHideFlags: 1

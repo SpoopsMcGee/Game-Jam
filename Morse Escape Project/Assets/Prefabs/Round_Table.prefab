@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212510514045058726}
   - component: {fileID: 61599159125872958}
   - component: {fileID: 61758547418614520}
+  - component: {fileID: 114156617840148016}
   m_Layer: 0
   m_Name: Round_Table
   m_TagString: InterObj
@@ -54,7 +55,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008230582, y: 0.07871998}
+  m_Offset: {x: 0.0017289892, y: 0.06445517}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -65,7 +66,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4974201, y: 0.18475015}
+  m_Size: {x: 0.4670794, y: 0.3273979}
   m_EdgeRadius: 0
 --- !u!61 &61758547418614520
 BoxCollider2D:
@@ -92,6 +93,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5240964, y: 0.4553307}
   m_EdgeRadius: 0
+--- !u!114 &114156617840148016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286732556202548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInterObj: {fileID: 0}
+  noun: 
+  description: 
+  source: {fileID: 0}
 --- !u!212 &212510514045058726
 SpriteRenderer:
   m_ObjectHideFlags: 1

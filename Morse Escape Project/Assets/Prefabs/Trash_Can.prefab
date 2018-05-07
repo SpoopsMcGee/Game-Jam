@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f49c0d9c0e283241bc55e70457501f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentInterObj: {fileID: 0}
   noun: Trash Can
   description: Simple looking trash can
   source: {fileID: 82875985735035884}
