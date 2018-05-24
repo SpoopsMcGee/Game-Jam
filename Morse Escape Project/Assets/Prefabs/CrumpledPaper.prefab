@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 212790865166540266}
   - component: {fileID: 61334403172355954}
   - component: {fileID: 61331953922047288}
-  - component: {fileID: 114509135517293164}
-  - component: {fileID: 82032037349050382}
+  - component: {fileID: 114805578235619104}
+  - component: {fileID: 82748664546272284}
   m_Layer: 0
   m_Name: CrumpledPaper
   m_TagString: InterObj
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1443083534500544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.4, y: -0.18, z: 0}
+  m_LocalPosition: {x: -8.400001, y: -0.17999999, z: 0}
   m_LocalScale: {x: 0.5788254, y: 0.52267057, z: 0.5050891}
   m_Children: []
   m_Father: {fileID: 0}
@@ -94,7 +94,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3001659, y: 0.23823436}
   m_EdgeRadius: 0
---- !u!82 &82032037349050382
+--- !u!82 &82748664546272284
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -174,7 +174,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114509135517293164
+--- !u!114 &114805578235619104
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -188,7 +188,7 @@ MonoBehaviour:
   currentInterObj: {fileID: 0}
   noun: Paper
   description: It's got your way out on it baby.
-  source: {fileID: 82032037349050382}
+  source: {fileID: 82748664546272284}
 --- !u!212 &212790865166540266
 SpriteRenderer:
   m_ObjectHideFlags: 1
